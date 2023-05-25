@@ -1,0 +1,16 @@
+.feynman__link {
+    position: absolute;
+    top: 50%;
+    line-height: 51px;
+    font-size: 36px;
+    right: 48px;
+    color: #2F80ED;
+    text-decoration: none;
+  }
+  
+
+  /* Стрелочка */
+  
+  .feynman__link::after {
+    content: '\2192';
+  }
